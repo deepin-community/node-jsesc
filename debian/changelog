@@ -1,0 +1,117 @@
+node-jsesc (3.0.2-3) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump std-vers to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 26 Aug 2021 05:04:53 +0200
+
+node-jsesc (3.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto test & install (Closes: #985501)
+  * Update copyright
+
+ -- Yadd <yadd@debian.org>  Fri, 19 Mar 2021 11:32:33 +0100
+
+node-jsesc (3.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 31 Oct 2020 08:22:28 +0100
+
+node-jsesc (3.0.1-2) unstable; urgency=medium
+
+  * Set Multi-Arch to foreign following hinter.
+  * Declare d/rules doesn't require root.
+  * Disable timeouts running the upstream test suite. (Closes: #961791)
+  * Update team mailing list address.
+  * Bump dh-compat to 13.
+  * Add lintian override for a false positive.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 03 Sep 2020 22:29:45 +0200
+
+node-jsesc (3.0.1-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Julien Puydt ]
+  * New upstream release.
+  * Bump std-vers to 4.5.0.
+  * Run upstream test suite.
+  * Install in /usr/share/nodejs and not /usr/lib/nodejs.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 12 Apr 2020 08:45:28 +0200
+
+node-jsesc (2.5.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Drop now-useless patch.
+    - Use my debian.org mail address.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.2.1.
+    - Refresh d/copyright (dates, use https).
+    - Move to section javascript.
+    - Point Vcs-* fields to salsa.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 13 Nov 2018 21:46:38 +0100
+
+node-jsesc (2.5.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump standards-version to 4.0.0.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 27 Jun 2017 14:02:50 +0200
+
+node-jsesc (2.4.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Thu, 29 Dec 2016 17:33:22 +0100
+
+node-jsesc (2.3.0-1) unstable; urgency=medium
+
+  * Bump dh compat to 10.
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Mon, 12 Dec 2016 10:57:59 +0100
+
+node-jsesc (2.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 10 Jun 2016 17:16:29 +0200
+
+node-jsesc (2.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 31 May 2016 18:12:37 +0200
+
+node-jsesc (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 21 May 2016 17:00:32 +0200
+
+node-jsesc (1.0.0-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump standards-version up.
+  * Use https for Vcs-* fields.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 13 May 2016 14:42:38 +0200
+
+node-jsesc (0.5.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #801980)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 16 Oct 2015 19:33:33 +0200

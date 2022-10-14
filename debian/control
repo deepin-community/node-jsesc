@@ -1,0 +1,25 @@
+Source: node-jsesc
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-jsesc
+Vcs-Git: https://salsa.debian.org/js-team/node-jsesc.git
+Homepage: http://mths.be/jsesc
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-jsesc
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: Escape JavaScript strings, with short output (Node.js module)
+ Escapes JavaScript strings while generating the shortes possible valid
+ ASCII-only output. This can be used to avoid various encoding issues.
+ .
+ Node.js is an event-based server-side JavaScript engine.

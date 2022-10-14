@@ -1,0 +1,2 @@
+# false positive: \\' doesn't escape the acute accent, but the backslash!
+node-jsesc: acute-accent-in-manual-page usr/share/man/man1/jsesc.1.gz:35
