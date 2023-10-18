@@ -1,3 +1,13 @@
+node-jsesc (3.0.2+~3.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix filenamemangle
+  * Ignore auto_build (Closes: #1005504)
+  * Embed typescript declarations
+  * New upstream version 3.0.2+~3.0.1
+
+ -- Yadd <yadd@debian.org>  Sun, 13 Feb 2022 08:54:09 +0100
+
 node-jsesc (3.0.2-3) unstable; urgency=medium
 
   * Fix d/watch.

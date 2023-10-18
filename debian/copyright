@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: jsesc
 Upstream-Contact: https://github.com/mathiasbynens/jsesc/issues
 Source: http://mths.be/jsesc
+ https://registry.npmjs.org/@types/jsesc
 
 Files: *
 Copyright: Mathias Bynens
@@ -10,6 +11,10 @@ License: Expat
 Files: debian/*
 Copyright: 2015-2018 Julien Puydt <jpuydt@debian.org>
  2020 Yadd <yadd@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
