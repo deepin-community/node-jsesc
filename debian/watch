@@ -1,5 +1,10 @@
 version=4
 opts=\
 dversionmangle=auto,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-jsesc-$1.tar.gz/ \
- https://github.com/mathiasbynens/jsesc/tags .*/v?([\d\.]+).tar.gz
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-jsesc-$1/ \
+ https://github.com/mathiasbynens/jsesc/tags .*/v?([\d\.]+).tar.gz group
+
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,component=types-jsesc,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-jsesc-$1/" \
+ https://registry.npmjs.org/@types/jsesc https://registry.npmjs.org/@types/jsesc/-/jsesc-([\d\.]+)@ARCHIVE_EXT@ group

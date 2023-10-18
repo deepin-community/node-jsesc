@@ -17,6 +17,7 @@ Package: node-jsesc
 Architecture: all
 Depends: ${misc:Depends}
  , nodejs
+Provides: ${nodejs:Provides}
 Multi-Arch: foreign
 Description: Escape JavaScript strings, with short output (Node.js module)
  Escapes JavaScript strings while generating the shortes possible valid
